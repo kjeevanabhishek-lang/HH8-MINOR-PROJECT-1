@@ -1,23 +1,10 @@
-# Tor Relay Node Setup (Middle Relay)
+# Tor Relay Node Setup (Relay Middle )
 
-## Short Description
-Privacy network lab.
+Overview
 
-## Brief Description
-This project demonstrates setting up a Tor Relay Node configured as a **Middle Relay** to help anonymize global internet traffic.  
+Lab: privacy network.
+Information A brief description of each chosen image is given:
+
+This project will show how to set up a Tor Relay Node configured as a **Middle Relay**, to assist in anonymizing global internet traffic.
 Middle relays are safe for home labs because they do not connect directly to destination servers or reveal user identities.
 
-## Tools Used
-- Tor Project
-- Ubuntu Linux
-- systemd
-- Terminal
-
-## Project Objectives
-- Understand Tor network architecture
-- Configure a Tor middle relay
-- Monitor relay status and bandwidth usage
-- Gain hands-on experience with privacy-enhancing technologies
-
-## Project Status
-✅ Successfully implemented and verified
