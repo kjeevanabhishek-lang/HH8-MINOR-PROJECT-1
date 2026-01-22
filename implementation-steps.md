@@ -1,24 +1,24 @@
 # 🛠 Implementation Steps – Tor Relay Node Setup (Middle Relay)
 
-## Step 1: Install Tor on Ubuntu
+Step 1: Install Tor on Ubuntu
 Tor is installed using the official Ubuntu repositories.
 
 ```bash
 sudo apt update
 sudo apt install tor -y
 
-### **Step 2: Verify Tor Installation**
+Step 2: Verify Tor Installation
 
 tor --version
 
-## Step 3: Check Tor Service Status
+Step 3: Check Tor Service Status
 Ensure that the Tor service is running.
 
 systemctl status tor
 
 Expected result: Status should show active (running).
 
-## Step 4: Configure Tor as a Middle Relay
+Step 4: Configure Tor as a Middle Relay
 
 Edit the Tor configuration file.
 
