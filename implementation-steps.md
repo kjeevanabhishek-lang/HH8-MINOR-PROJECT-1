@@ -10,7 +10,7 @@ sudo apt install tor -y
 
 ---
 
-### 🔹 Step 2 (THIS is what you must change it to)
+### 🔹 Step 2
 ```md
 ## Step 2: Verify Tor Installation
 
@@ -18,4 +18,15 @@ Verify that Tor is installed correctly.
 
 ```bash
 tor --version
+
+---
+
+### 🔹 Step 3
+```md
+## Step 3: Check Tor Service Status
+
+Ensure that the Tor service is running.
+
+```bash
+systemctl status tor
 
