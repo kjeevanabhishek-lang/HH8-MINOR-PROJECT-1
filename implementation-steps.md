@@ -18,3 +18,14 @@ Verify that Tor is installed correctly.
 
 ```bash
 tor --version
+
+---
+
+### 🔹 Step 3
+```md
+## Step 3: Check Tor Service Status
+
+Ensure that the Tor service is running.
+
+```bash
+systemctl status tor
