@@ -1,4 +1,4 @@
-### 🔹 Step 1 
+## 🔹 Step 1 
 ```md
 ## Step 1: Install Tor on Ubuntu
 
