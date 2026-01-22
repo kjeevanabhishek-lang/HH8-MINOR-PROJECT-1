@@ -1,4 +1,3 @@
-## 🔹 Step 1 
 ```md
 ## Step 1: Install Tor on Ubuntu
 
@@ -10,7 +9,7 @@ sudo apt install tor -y
 
 ---
 
-### 🔹 Step 2 
+## 🔹 Step 2 
 ```md
 ## Step 2: Verify Tor Installation
 
