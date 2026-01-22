@@ -1,20 +1,19 @@
-## Project Title
-Tor Relay Node Setup
+# Project Title
+Tor Relay Node Configuration
+==========================
 
-## Category
-Cyber Security / Privacy Network Lab
+# Category
+
+> Cyber Security / Privacy Network Lab
 
 ## Relay Type
-Middle Relay (Safe for home networks)
+Middle Relay (Agnostic/Safe for home networks
 
-## Why Middle Relay?
-Middle relays only pass encrypted traffic between other Tor nodes.
-They do not know the source or destination of traffic, making them safe and ethical for educational use.
+# Why Middle Relay?
 
+"Middle nodes simply relay the encrypted traffic between other nodes on the Tor network," explains Freedom Activist
+They do not know the origin or destination of traffic; thus, they are secure and ethical to use in learning processes.
 ## Operating System
-Ubuntu Linux
+Ubuntu Linux ## Security Considerations
 
-## Security Considerations
-- No user traffic inspection
-- Bandwidth throttling enabled
-- No exit node configuration used
+<b - No User Traffic Inspection - Bandwidth Throttling Enabled • No exit node was configured.
