@@ -1,7 +1,6 @@
-```bash
-# STEP 1: Install Tor on Ubuntu
+STEP 1: Install Tor on Ubuntu
 sudo apt update
-sudo apt install tor -y
+`sudo apt install tor -y`
 
 # STEP 2: Verify Tor Installation
 tor --version
@@ -19,21 +18,19 @@ ORPort 9001
 Nickname MiddleRelayNode
 ContactInfo admin@example.com
 RelayBandwidthRate 100 KB
-RelayBandwidthBurst 200 KB
+Relay Bandwidth Burst 200 KB
 ExitRelay 0
 
 # Save and exit (CTRL+O, Enter, CTRL+X)
 
 # STEP 5: Restart Tor Service
-sudo systemctl restart tor
+ sudo systemctl restart tor 
 
-# STEP 6: Confirm Tor Service After Restart
-systemctl status tor
-# Expected: active (running)
+# STEP 6: Verify Tor Service After Reboot systemctl status tor 
+# Expected: active (running) 
 
-# STEP 7: Verify Tor Process is Running
-ps aux | grep tor
+# STEP 7: Verify Tor Process is Running 
+ps aux | grep tor 
 
-# STEP 8: Check Tor Logs
+# STEP 8: Tor Logs Check 
 journalctl -u tor --no-pager | tail
-```
