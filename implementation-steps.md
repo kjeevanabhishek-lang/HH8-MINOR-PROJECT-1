@@ -13,12 +13,19 @@ systemctl status tor
 sudo nano /etc/tor/torrc
 
 #Add the following lines in torrc:
+
 RunAsDaemon 1
+
 ORPort 9001
+
 Nickname MiddleRelayNode
+
 ContactInfo admin@example.com
+
 RelayBandwidthRate 100 KB
+
 Relay Bandwidth Burst 200 KB
+
 ExitRelay 0
 
 #Save and exit (CTRL+O, Enter, CTRL+X)
