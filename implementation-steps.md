@@ -1,4 +1,4 @@
-STEP 1: Install Tor on Ubuntu
+# STEP 1: Install Tor on Ubuntu
 sudo apt update
 `sudo apt install tor -y`
 
@@ -12,7 +12,7 @@ systemctl status tor
 # STEP 4: Configure Tor as a Middle Relay
 sudo nano /etc/tor/torrc
 
-# Add the following lines in torrc:
+#Add the following lines in torrc:
 RunAsDaemon 1
 ORPort 9001
 Nickname MiddleRelayNode
@@ -21,7 +21,7 @@ RelayBandwidthRate 100 KB
 Relay Bandwidth Burst 200 KB
 ExitRelay 0
 
-# Save and exit (CTRL+O, Enter, CTRL+X)
+#Save and exit (CTRL+O, Enter, CTRL+X)
 
 # STEP 5: Restart Tor Service
  sudo systemctl restart tor 
