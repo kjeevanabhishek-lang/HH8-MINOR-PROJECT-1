@@ -27,7 +27,7 @@ ExitRelay 0
  sudo systemctl restart tor 
 
 # STEP 6: Verify Tor Service After Reboot systemctl status tor 
-# Expected: active (running) 
+#Expected: active (running) 
 
 # STEP 7: Verify Tor Process is Running 
 ps aux | grep tor 
