@@ -7,7 +7,7 @@ tor --version
 
 # STEP 3: Check Tor Service Status
 systemctl status tor
-# Expected: active (running)
+#Expected: active (running)
 
 # STEP 4: Configure Tor as a Middle Relay
 sudo nano /etc/tor/torrc
